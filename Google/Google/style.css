@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap');
+body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Partie header */
+header{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 10px 20px;
+
+}
+.gb_Ve {height: 30px;
+     width: 30px;}
+
+     header .left, header .right{
+         display: flex;
+         flex-wrap: wrap;
+     }
+     header p{
+         margin-right: 10px;
+color: #787878;
+cursor: pointer;
+     }
+    header p:hover{
+        color: black;
+    }
+    header .right svg{
+        height: 30px;
+        width: 30px; 
+        margin-top: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }    
+    header .right p.user{
+        font-size: 30px;
+    }
+    header .sign-in{
+        background: #1a73e8;
+        border: 1px solid transparent;
+        border-radius: 0.5em;
+        color: white;
+        font-weight: 500;
+    font-size: 14px;
+    height: 35px;
+    width: 120px;
+    
+    margin: 0px 8px; 
+    padding: 9px 23px;
+cursor: pointer;
+
+}
+
+ section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+section .recherche {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 40px;
+    width: 500px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+padding: 1px 44px 1px 52px;
+
+
+}
+section .recherche:hover {
+box-shadow: 0px 0px 4px 0px #b5b5b5;
+
+}
+
+
+
+
+
+
+
+
+section .image {
+    width: 300px;
+}
+
+    /* Fin de la partie header */
+
+
+    /* Partie principale*/
+
+
+
+
+/* Fin de la partie principale*/
